@@ -1,4 +1,4 @@
-### <p align="center">[viveksde.in](http://www.viveksde.in/)</p>
+### <p align="center">[praveenk.in](http://www.praveenk.in/)</p>
 
 - 👋 Hi, I’m @praveen211989
 - 👀 I’m interested in exploring new technology related to mobile devices, IOT, Blockchain.
