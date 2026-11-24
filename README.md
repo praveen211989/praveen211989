@@ -5,7 +5,7 @@
 ### **Senior Chief Engineer | Android Framework & NFC Specialist**
 **Bengaluru, India** • 📞 `+91 7406333302` • ✉️ `praveen211989@gmail.com`
 
-[![Website](https://img.shields.io/badge/Website-praveenk.in-3ddc84?style=for-the-badge&logo=google-chrome&logoColor=black)](http://www.praveenk.in/)
+[![Website](https://img.shields.io/badge/Live_Webpage-praveen211989.github.io-3ddc84?style=for-the-badge&logo=google-chrome&logoColor=black)](https://praveen211989.github.io/praveen211989/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-praveen211989-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praveen211989)
 [![AOSP Contributions](https://img.shields.io/badge/AOSP_Gerrit-Contributions-4285F4?style=for-the-badge&logo=android&logoColor=white)](https://android-review.googlesource.com/q/owner:praveen.kr@samsung.corp-partner.google.com)
 [![GitHub](https://img.shields.io/badge/GitHub-praveen211989-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/praveen211989)
@@ -114,7 +114,7 @@ Accomplished **Senior Android System & Framework Engineer** with over **13 years
 
 ## 📬 Connect with Me
 
-* 🌐 **Personal Website:** [www.praveenk.in](http://www.praveenk.in/)
+* 🌐 **Live Webpage:** [praveen211989.github.io/praveen211989/](https://praveen211989.github.io/praveen211989/)
 * 💼 **LinkedIn:** [linkedin.com/in/praveen211989](https://www.linkedin.com/in/praveen211989)
 * 🐙 **GitHub:** [github.com/praveen211989](https://github.com/praveen211989)
 * 📧 **Email:** [praveen211989@gmail.com](mailto:praveen211989@gmail.com)
