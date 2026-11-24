@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praveen Kumar Pandey - Senior Chief Engineer, Android Framework & NFC Specialist with 13+ years of experience in AOSP, Native C++, AIDL/HIDL HAL, APEX, and AI-accelerated system development.">
+  <meta name="keywords" content="Praveen Kumar Pandey, Android Framework, AOSP, NFC, Senior Chief Engineer, Samsung, C++, AIDL, HIDL, APEX, SELinux, Soong, Mobly, Android OS">
+  <meta name="author" content="Praveen Kumar Pandey">
+  <title>Praveen Kumar Pandey | Senior Chief Engineer & Android Framework Specialist</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-badge">&lt;PKP /&gt;</span>
+        <span class="brand-text">Praveen Pandey</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#competencies" class="nav-link">Competencies</a>
+        <a href="#architecture" class="nav-link">Architecture Stack</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#aosp" class="nav-link">AOSP Contributions</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="Praveen_Kumar_Pandey_Android_Framework_Engineer.pdf" class="btn btn-outline btn-sm download-btn" download="Praveen_Kumar_Pandey_Android_Framework_Engineer.pdf">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume PDF</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-badge-wrap">
+        <span class="status-indicator"></span>
+        <span class="hero-badge">Senior Chief Engineer @ Samsung R&D Institute</span>
+        <span class="hero-subbadge">13+ Years Experience</span>
+      </div>
+
+      <h1 class="hero-title">
+        Praveen Kumar <span class="gradient-text">Pandey</span>
+      </h1>
+
+      <p class="hero-role">
+        Senior Android Framework &amp; NFC Specialist | Core AOSP System Architect
+      </p>
+
+      <p class="hero-tagline">
+        Specializing in core AOSP internals, native C++ NFC middleware, AIDL/HIDL HAL interface migrations,
+        APEX container modularization, and AI-assisted system engineering (Claude, Codex, Gemini).
+        Proven technical leader driving flagship device platform stability and global tier-1 carrier solutions.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#experience" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span>Explore Experience</span>
+        </a>
+
+        <a href="https://android-review.googlesource.com/q/owner:praveen.kr@samsung.corp-partner.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>AOSP Contributions</span>
+          <span class="external-icon">&nearr;</span>
+        </a>
+
+        <a href="#contact" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Contact Me</span>
+        </a>
+      </div>
+
+      <!-- Quick Metrics Bar -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value">13+</div>
+          <div class="metric-label">Years Core System Engineering</div>
+          <div class="metric-desc">AOSP, Native C++, HAL &amp; Middleware</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">92%</div>
+          <div class="metric-label">Bring-up Time Reduction</div>
+          <div class="metric-desc">Slashing target bring-up from 2h to 10m</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">75%</div>
+          <div class="metric-label">Test Automation Gain</div>
+          <div class="metric-desc">Mobly suite automated 2h manual to 30m</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">2025</div>
+          <div class="metric-label">Samsung Super Tech Award</div>
+          <div class="metric-desc">Flagship device platform stability leadership</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info Bar (Location, Email, Phone, Socials) -->
+  <section class="quick-info-bar">
+    <div class="container quick-info-container">
+      <div class="info-pill">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        <span>Bengaluru, India</span>
+      </div>
+
+      <div class="info-pill clickable copy-action" data-copy="praveen211989@gmail.com" title="Click to copy email">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span class="copy-text">praveen211989@gmail.com</span>
+        <span class="copy-hint">Copy</span>
+      </div>
+
+      <div class="info-pill clickable copy-action" data-copy="+917406333302" title="Click to copy phone number">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <span class="copy-text">+91 7406333302</span>
+        <span class="copy-hint">Copy</span>
+      </div>
+
+      <div class="info-pill-links">
+        <a href="https://www.linkedin.com/in/praveen211989" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/praveen211989" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <a href="http://www.praveenk.in/" target="_blank" rel="noopener noreferrer" class="social-pill" title="Personal Website">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span>praveenk.in</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Executive Summary</span>
+        <h2 class="section-title">Architecting at the Core of Android OS</h2>
+        <p class="section-subtitle">
+          Over 13 years of engineering impact bridging high-performance native layers, hardware abstraction, and enterprise Android frameworks.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card primary-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <h3>System Architect &amp; Engineering Lead</h3>
+          <p>
+            Accomplished Senior Android System &amp; Framework Engineer with 13+ years of hands-on expertise designing,
+            implementing, and optimizing core AOSP components across global mobile portfolios at <strong>Samsung R&amp;D Institute</strong>
+            and <strong>LG Soft India</strong>.
+          </p>
+          <p>
+            Technical leader specializing in Android build systems (<strong>Soong</strong>, <strong>Make</strong>, <strong>Blueprint</strong>),
+            platform OS upgrades, <strong>APEX modularization</strong>, and hardware abstraction layers (<strong>AIDL / HIDL</strong>).
+            Directing cross-functional teams of 4–5 engineers delivering robust platform stability for millions of global devices.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+            </svg>
+          </div>
+          <h3>NFC &amp; Protocol Mastery</h3>
+          <p>
+            Architect of native C++ NFC Middleware, Host Card Emulation (HCE), Reader Mode, and HAL boundaries.
+            Spearheaded the transition to APEX containers, decoupling OEM dependencies and modernizing update pipelines.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>AI-Assisted Systems Engineering</h3>
+          <p>
+            Early adopter and vanguard of AI LLM integration (Claude, Codex, Gemini) into systems engineering workflows.
+            Accelerating AOSP code navigation, automated Mobly test generation, and deep-dive log analysis.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3>Strategic Carrier Partnerships</h3>
+          <p>
+            Over a decade of orchestrating technical alignment with global tier-1 partners (Verizon, Nokia) across
+            North America, Asia, and Europe for FOTA DM, OMA-DM, SmartCA frameworks, and LwM2M IoT solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Android System Architecture Section -->
+  <section class="section arch-section" id="architecture">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Interactive Blueprint</span>
+        <h2 class="section-title">The Android System Architecture Stack</h2>
+        <p class="section-subtitle">
+          Explore the exact layers of the Android OS where Praveen operates, architects, and optimizes performance.
+          Click or hover over any layer to inspect technical responsibilities.
+        </p>
+      </div>
+
+      <div class="arch-container">
+        <!-- Interactive Layers List -->
+        <div class="arch-stack">
+          <!-- Layer 1 -->
+          <div class="arch-layer active" data-layer="apps">
+            <div class="layer-header">
+              <div class="layer-num">L5</div>
+              <div class="layer-info">
+                <h4>System Applications &amp; Framework Services</h4>
+                <p>Java System Services &bull; NFC System App &bull; FOTA DM Client &bull; Custom SDKs</p>
+              </div>
+              <span class="layer-tag">Java / Kotlin</span>
+            </div>
+          </div>
+
+          <!-- Layer 2 -->
+          <div class="arch-layer" data-layer="ipc">
+            <div class="layer-header">
+              <div class="layer-num">L4</div>
+              <div class="layer-info">
+                <h4>IPC &amp; Security Boundary</h4>
+                <p>Binder IPC &bull; AIDL &bull; HIDL &bull; SELinux Policy Enforcement</p>
+              </div>
+              <span class="layer-tag">IPC / Security</span>
+            </div>
+          </div>
+
+          <!-- Layer 3 -->
+          <div class="arch-layer" data-layer="middleware">
+            <div class="layer-header">
+              <div class="layer-num">L3</div>
+              <div class="layer-info">
+                <h4>Native Middleware &amp; Modular APEX</h4>
+                <p>Native C++ NFC Middleware &bull; APEX Modular Containers &bull; Multi-threading</p>
+              </div>
+              <span class="layer-tag">Native C++</span>
+            </div>
+          </div>
+
+          <!-- Layer 4 -->
+          <div class="arch-layer" data-layer="hal">
+            <div class="layer-header">
+              <div class="layer-num">L2</div>
+              <div class="layer-info">
+                <h4>Hardware Abstraction Layer (HAL) &amp; Drivers</h4>
+                <p>AIDL HAL &bull; HIDL Interface Migrations &bull; Vendor Implementations &bull; NFC Controller</p>
+              </div>
+              <span class="layer-tag">HAL / C++</span>
+            </div>
+          </div>
+
+          <!-- Layer 5 -->
+          <div class="arch-layer" data-layer="build">
+            <div class="layer-header">
+              <div class="layer-num">L1</div>
+              <div class="layer-info">
+                <h4>Build System &amp; Compliance Verification</h4>
+                <p>Soong (Android.bp) &bull; Make (Android.mk) &bull; CTS / CTS-Verifier &bull; VTS &bull; Mobly</p>
+              </div>
+              <span class="layer-tag">Tooling / QA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layer Details Dynamic Display -->
+        <div class="arch-details-card" id="archDetails">
+          <div class="arch-detail-header">
+            <span class="detail-badge" id="detailBadge">L5 System Apps &amp; Framework</span>
+            <h3 id="detailTitle">System Applications &amp; Core Framework Services</h3>
+          </div>
+          <div class="detail-body" id="detailBody">
+            <p>
+              Praveen develops and maintains core Android framework components, system services, and device-critical applications:
+            </p>
+            <ul>
+              <li><strong>NFC System Application:</strong> High-performance Java/Kotlin applications orchestrating NFC interactions, tag dispatch, card emulation routing, and settings.</li>
+              <li><strong>FOTA DM Clients:</strong> Owned carrier-grade Firmware Over-The-Air solutions for tier-1 North American and global carriers.</li>
+              <li><strong>SmartCA Framework:</strong> Architecture and maintenance of carrier adaptation framework for multi-region configurations across North America, Europe, and Asia.</li>
+              <li><strong>Custom Android SDKs:</strong> Designing stable, backward-compatible API surfaces for internal teams and OEM ecosystem partners.</li>
+            </ul>
+            <div class="detail-tags" id="detailTags">
+              <span class="tag">Java</span>
+              <span class="tag">System Services</span>
+              <span class="tag">NFC App</span>
+              <span class="tag">FOTA</span>
+              <span class="tag">SmartCA</span>
+              <span class="tag">Custom SDK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Competencies Section -->
+  <section class="section competencies-section" id="competencies">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Arsenal</span>
+        <h2 class="section-title">Core Competencies &amp; Expertise</h2>
+        <p class="section-subtitle">
+          A granular view of technologies, protocols, and leadership methodologies honed across 13+ years in platform engineering.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Domains</button>
+        <button class="filter-btn" data-filter="system">Android System &amp; AOSP</button>
+        <button class="filter-btn" data-filter="protocols">Protocols &amp; NFC</button>
+        <button class="filter-btn" data-filter="languages">Languages &amp; Tools</button>
+        <button class="filter-btn" data-filter="ai">AI Integration</button>
+        <button class="filter-btn" data-filter="leadership">Leadership</button>
+      </div>
+
+      <div class="competencies-grid">
+        <!-- Card 1: Android System & Framework -->
+        <div class="comp-card" data-category="system">
+          <div class="comp-card-header">
+            <div class="comp-icon">🤖</div>
+            <h3>Android System &amp; Framework</h3>
+          </div>
+          <p class="comp-desc">Core AOSP internals, architectural upgrades, and platform compliance.</p>
+          <ul class="comp-list">
+            <li><strong>AOSP Internals:</strong> Core OS customization, system service lifecycle, boot flow, and process management.</li>
+            <li><strong>Android Build Systems:</strong> Soong (Android.bp), Make (Android.mk), Blueprint configuration.</li>
+            <li><strong>OS Upgrades &amp; Bring-Up:</strong> Migration across major Android releases; target bring-up workflows.</li>
+            <li><strong>Security &amp; IPC:</strong> SELinux security policy authoring/debugging, Binder IPC, AIDL, HIDL interfaces.</li>
+            <li><strong>Modular APEX:</strong> Transitioning core monolithic modules into updatable APEX packages.</li>
+            <li><strong>Compliance:</strong> CTS (Compatibility Test Suite), CTS-Verifier, and VTS (Vendor Test Suite) validation.</li>
+          </ul>
+          <div class="comp-tags">
+            <span>AOSP</span>
+            <span>Soong</span>
+            <span>Android.bp</span>
+            <span>AIDL</span>
+            <span>HIDL</span>
+            <span>SELinux</span>
+            <span>APEX</span>
+            <span>CTS/VTS</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Protocols & Domain Expertise -->
+        <div class="comp-card" data-category="protocols">
+          <div class="comp-card-header">
+            <div class="comp-icon">📡</div>
+            <h3>Protocols &amp; NFC Domain</h3>
+          </div>
+          <p class="comp-desc">Low-latency near-field communications and carrier protocol stacks.</p>
+          <ul class="comp-list">
+            <li><strong>NFC Framework:</strong> End-to-end architecture across global mobile portfolios (Samsung Galaxy).</li>
+            <li><strong>Host Card Emulation (HCE):</strong> Contactless payment and ticketing card emulation protocols.</li>
+            <li><strong>Reader Mode &amp; P2P:</strong> ISO/IEC 14443, ISO/IEC 18092, and NFC Forum specifications.</li>
+            <li><strong>Device Management (DM):</strong> OMA-DM protocol implementation and carrier profile provisioning.</li>
+            <li><strong>FOTA &amp; FUMO:</strong> Firmware Update Management Object handling for North American &amp; Global carriers.</li>
+            <li><strong>IoT Protocols:</strong> Lightweight M2M (LwM2M) architecture and proof-of-concept on mobile targets.</li>
+          </ul>
+          <div class="comp-tags">
+            <span>NFC</span>
+            <span>HCE</span>
+            <span>Reader Mode</span>
+            <span>OMA-DM</span>
+            <span>FOTA</span>
+            <span>FUMO</span>
+            <span>LwM2M</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Programming Languages & Tools -->
+        <div class="comp-card" data-category="languages">
+          <div class="comp-card-header">
+            <div class="comp-icon">💻</div>
+            <h3>Languages &amp; Engineering Tools</h3>
+          </div>
+          <p class="comp-desc">Systems programming, scripting, version control, and automation harnesses.</p>
+          <ul class="comp-list">
+            <li><strong>Modern C++:</strong> Native NFC middleware, HAL implementations, POSIX concurrency, IPC stubs.</li>
+            <li><strong>Core Java:</strong> System apps, Android framework services, FOTA clients, and multithreading.</li>
+            <li><strong>Scripting:</strong> Shell scripting (Bash), Python for automation harnesses and log parsers.</li>
+            <li><strong>VCS &amp; Code Review:</strong> Git, Google Gerrit, Perforce (P4V).</li>
+            <li><strong>IDE &amp; SDK:</strong> Android Studio, AOSP tree development, Custom SDK authoring.</li>
+            <li><strong>Testing Automation:</strong> Google Mobly Python-based hardware automation test framework.</li>
+          </ul>
+          <div class="comp-tags">
+            <span>C++</span>
+            <span>Core Java</span>
+            <span>Python</span>
+            <span>Bash</span>
+            <span>Gerrit</span>
+            <span>P4V</span>
+            <span>Mobly</span>
+            <span>Android Studio</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Modern Engineering & AI Integration -->
+        <div class="comp-card" data-category="ai">
+          <div class="comp-card-header">
+            <div class="comp-icon">🧠</div>
+            <h3>Modern AI &amp; LLM Engineering</h3>
+          </div>
+          <p class="comp-desc">Supercharging systems engineering through applied modern generative AI.</p>
+          <ul class="comp-list">
+            <li><strong>AI-Assisted Systems Dev:</strong> Leveraging Claude, Codex, and Gemini to navigate massive AOSP trees.</li>
+            <li><strong>Deep-Dive Log Triage:</strong> Automating complex logcat, tombstone, and kernel trace parsing with LLMs.</li>
+            <li><strong>Automated Test Scripting:</strong> Generating automated Mobly verification suites and stress tests.</li>
+            <li><strong>Prompt Engineering:</strong> Structuring domain-specific prompts for code refactoring and bug root-causing.</li>
+            <li><strong>Workflow Acceleration:</strong> Converting repetitive bring-up and configuration tasks into AI pipelines.</li>
+          </ul>
+          <div class="comp-tags">
+            <span>Claude</span>
+            <span>Codex</span>
+            <span>Gemini</span>
+            <span>Prompt Engineering</span>
+            <span>Log Analysis</span>
+            <span>Automated Test Gen</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Leadership & Processes -->
+        <div class="comp-card" data-category="leadership">
+          <div class="comp-card-header">
+            <div class="comp-icon">👥</div>
+            <h3>Engineering Leadership &amp; Delivery</h3>
+          </div>
+          <p class="comp-desc">Mentoring high-caliber teams, strategic roadmapping, and vendor management.</p>
+          <ul class="comp-list">
+            <li><strong>Team Leadership:</strong> Leading 4–5 engineers in sprint execution, code quality, and delivery.</li>
+            <li><strong>Architectural Governance:</strong> Conducting comprehensive architectural reviews and SELinux audits.</li>
+            <li><strong>Stakeholder Collaboration:</strong> Aligning with tier-1 partners (Verizon, Nokia) and semiconductor vendors.</li>
+            <li><strong>Process Optimization:</strong> Slashing module bring-up time by 92% and accelerating release cycles.</li>
+            <li><strong>Cross-Functional Mentorship:</strong> Upskilling engineers in AOSP build systems, APEX, and C++ best practices.</li>
+          </ul>
+          <div class="comp-tags">
+            <span>Team Lead</span>
+            <span>Architecture Review</span>
+            <span>Stakeholder Mgmt</span>
+            <span>Sprint Planning</span>
+            <span>Mentorship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Timeline -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career Trajectory</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">
+          Over a decade of architectural innovation at leading consumer electronics R&amp;D divisions.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- Experience 1: Samsung R&D Institute -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div class="exp-title-block">
+                <span class="company-badge current">Current Role</span>
+                <h3 class="role-title">Senior Chief Engineer</h3>
+                <h4 class="company-name">Samsung R&amp;D Institute &bull; <span class="location">Bengaluru, India</span></h4>
+              </div>
+              <div class="exp-date">2022 &ndash; Present</div>
+            </div>
+
+            <div class="role-summary">
+              Lead NFC Framework architecture, native middleware, HAL layer migrations, and platform bring-up across global Samsung flagship and mass-tier mobile portfolios. Manage and mentor an engineering team of 4–5 developers.
+            </div>
+
+            <div class="exp-highlights-box">
+              <div class="highlight-item">
+                <div class="highlight-stat">2h &rarr; 10m</div>
+                <div class="highlight-label">Automated Bring-up Workflow (92% Faster)</div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-stat">2h &rarr; 30m</div>
+                <div class="highlight-label">Mobly Automated Verification Test Suite</div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-stat">APEX</div>
+                <div class="highlight-label">Modularized NFC to eliminate OEM debt</div>
+              </div>
+            </div>
+
+            <ul class="exp-bullets">
+              <li>
+                <strong>NFC Framework &amp; Native Middleware:</strong> Spearhead end-to-end NFC framework architecture, feature development, and maintenance across global Samsung mobile portfolios. Architect native C++ NFC Middleware and AIDL/HIDL HAL layers alongside Java-based NFC System Applications to ensure robust performance across device tiers.
+              </li>
+              <li>
+                <strong>Android Build System Architecture:</strong> Architect and maintain Soong (<code>Android.bp</code>) and Make (<code>Android.mk</code>) build system configurations for core system services, native libraries, and APEX modules.
+              </li>
+              <li>
+                <strong>Major OS Upgrades &amp; Bring-up:</strong> Lead Android OS upgrades, framework porting, and HAL interface migrations across major platform releases, ensuring CTS, CTS-Verifier, and VTS compliance.
+              </li>
+              <li>
+                <strong>Transition to APEX Containers:</strong> Architected the transition of NFC stack components to APEX containers, modularizing the framework to reduce OEM integration debt and enhance platform maintainability.
+              </li>
+              <li>
+                <strong>Automated Bring-up Pipeline:</strong> Engineered an automated NFC module bring-up workflow, slashing target bring-up time from <strong>2 hours to 10 minutes per model</strong> across new Android targets.
+              </li>
+              <li>
+                <strong>Mobly Self-Verification Test Suite:</strong> Designed and deployed a Mobly-based self-verification framework, automating 2 hours of manual testing down to a <strong>30-minute automated test suite execution</strong> while accelerating framework stability checks.
+              </li>
+              <li>
+                <strong>AI Integration in Engineering:</strong> Integrate AI LLM tools (Claude, Codex, Gemini) into engineering workflows to accelerate AOSP code navigation, deep-dive log analysis, and automated Mobly test generation.
+              </li>
+              <li>
+                <strong>Team Leadership &amp; Code Review:</strong> Direct a technical team of 4–5 engineers, overseeing sprint delivery, conducting architectural code reviews, and resolving critical system-level SELinux policy issues.
+              </li>
+            </ul>
+
+            <div class="tech-pill-row">
+              <span class="tech-pill">AOSP</span>
+              <span class="tech-pill">Native C++</span>
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">AIDL / HIDL HAL</span>
+              <span class="tech-pill">Android APEX</span>
+              <span class="tech-pill">Soong (Android.bp)</span>
+              <span class="tech-pill">SELinux</span>
+              <span class="tech-pill">CTS / VTS</span>
+              <span class="tech-pill">Mobly</span>
+              <span class="tech-pill">Claude / Gemini</span>
+              <span class="tech-pill">Team Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: LG Soft India -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div class="exp-title-block">
+                <span class="company-badge">10 Years Tenure</span>
+                <h3 class="role-title">Senior Research Engineer / System Analyst</h3>
+                <h4 class="company-name">LG Soft India &bull; <span class="location">Bengaluru, India</span></h4>
+              </div>
+              <div class="exp-date">2012 &ndash; 2022</div>
+            </div>
+
+            <div class="role-summary">
+              Led device management, FOTA solutions, and carrier customization frameworks for global and North American mobile devices. Orchestrated alignment with tier-1 operators and engineered IoT proof-of-concept solutions.
+            </div>
+
+            <ul class="exp-bullets">
+              <li>
+                <strong>Carrier FOTA Solutions:</strong> Owned Firmware Over-The-Air (FOTA) DM solutions for Global and North American carrier devices, developing core Java FOTA DM Clients and managing requirement analysis, feature implementations, and major OS upgrade porting.
+              </li>
+              <li>
+                <strong>SmartCA Android Framework:</strong> Developed and maintained the SmartCA Android service framework, enabling smooth operator customization across Asia, Europe, and the Americas.
+              </li>
+              <li>
+                <strong>Strategic Partner Alignment:</strong> Orchestrated technical alignment with strategic global partners (Verizon, Nokia) to define feature specifications and resolve system-level bottlenecks.
+              </li>
+              <li>
+                <strong>LwM2M IoT Innovation:</strong> Designed and executed a Lightweight M2M (LwM2M) Proof of Concept (POC) for LG mobile targets, pioneering low-power device management on Android.
+              </li>
+            </ul>
+
+            <div class="tech-pill-row">
+              <span class="tech-pill">FOTA DM</span>
+              <span class="tech-pill">OMA-DM</span>
+              <span class="tech-pill">FUMO</span>
+              <span class="tech-pill">SmartCA</span>
+              <span class="tech-pill">Carrier Customization</span>
+              <span class="tech-pill">LwM2M (IoT)</span>
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Verizon Alignment</span>
+              <span class="tech-pill">Nokia Alignment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AOSP & Open Source Section -->
+  <section class="section aosp-section" id="aosp">
+    <div class="container">
+      <div class="aosp-banner">
+        <div class="aosp-content">
+          <span class="section-tag tag-aosp">Upstream Open Source</span>
+          <h2 class="aosp-title">Android Open Source Project (AOSP) Contributions</h2>
+          <p class="aosp-desc">
+            Direct upstream code contributions and reviews on Google's Gerrit code review system under
+            <code>praveen.kr@samsung.corp-partner.google.com</code>. Contributing to the foundation of the world's most widely deployed operating system.
+          </p>
+          <div class="aosp-actions">
+            <a href="https://android-review.googlesource.com/q/owner:praveen.kr@samsung.corp-partner.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-glow">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>View AOSP Gerrit Code Review</span>
+              <span class="external-icon">&nearr;</span>
+            </a>
+            <a href="https://github.com/praveen211989" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              <span>GitHub @praveen211989</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Achievements & Awards -->
+  <section class="section achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognitions</span>
+        <h2 class="section-title">Key Achievements &amp; Awards</h2>
+        <p class="section-subtitle">
+          Honors earned for architectural innovation, leadership, technical hackathons, and corporate athletics.
+        </p>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- Super Tech Award -->
+        <div class="award-card highlight">
+          <div class="award-badge-top">Excellence Award</div>
+          <div class="award-icon">🏆</div>
+          <div class="award-year">2025</div>
+          <h3 class="award-title">Super Tech Award &ndash; Samsung Excellence</h3>
+          <p class="award-org">Samsung R&amp;D Institute</p>
+          <p class="award-desc">
+            Recognized for outstanding technical leadership, architectural breakthroughs, and engineering contributions to flagship device platform stability.
+          </p>
+        </div>
+
+        <!-- Corporate Sports Champion -->
+        <div class="award-card">
+          <div class="award-badge-top">Athletics</div>
+          <div class="award-icon">🥇</div>
+          <div class="award-year">2024 &ndash; 2026</div>
+          <h3 class="award-title">Samsung Corporate Sports Champion</h3>
+          <p class="award-org">Samsung Annual Championship</p>
+          <p class="award-desc">
+            Winner of consecutive <strong>Gold Medals in Table Tennis (2024, 2025)</strong> and <strong>Gold Medal in Volleyball (2026)</strong>.
+          </p>
+        </div>
+
+        <!-- OPEN Idea Innovation Award -->
+        <div class="award-card">
+          <div class="award-badge-top">Innovation</div>
+          <div class="award-icon">💡</div>
+          <div class="award-year">Innovation Award</div>
+          <h3 class="award-title">OPEN Idea Technical Event</h3>
+          <p class="award-org">Technical Innovation Showcase</p>
+          <p class="award-desc">
+            Recipient of the Innovation Award for breakthrough technical design and proposal solving complex platform challenges.
+          </p>
+        </div>
+
+        <!-- Hack2Hire -->
+        <div class="award-card">
+          <div class="award-badge-top">Hackathon</div>
+          <div class="award-icon">🥈</div>
+          <div class="award-year">2019</div>
+          <h3 class="award-title">DBS Hack2Hire &ndash; 2nd Place</h3>
+          <p class="award-org">DBS Bank Global Hackathon</p>
+          <p class="award-desc">
+            Secured 2nd place among top software engineering talent in rapid-prototyping high-concurrency solutions.
+          </p>
+        </div>
+
+        <!-- LG Emerging Star -->
+        <div class="award-card">
+          <div class="award-badge-top">Excellence</div>
+          <div class="award-icon">⭐</div>
+          <div class="award-year">2014</div>
+          <h3 class="award-title">LG Emerging Star &amp; Spot Awards</h3>
+          <p class="award-org">LG Soft India</p>
+          <p class="award-desc">
+            Awarded the prestigious Emerging Star Award and multiple Spot Recognition Awards for high-impact carrier delivery and framework quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education &amp; Credentials</h2>
+        <p class="section-subtitle">
+          Foundational engineering in computer science and system software development.
+        </p>
+      </div>
+
+      <div class="education-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <span class="edu-year">2012</span>
+            <h3 class="edu-degree">Post Graduate Diploma in System Software Development</h3>
+            <h4 class="edu-school">Centre for Development of Advanced Computing (CDAC) &bull; Pune, India</h4>
+            <p class="edu-desc">
+              Rigorous advanced specialization in system programming, operating system kernels, Linux internals, data structures, and embedded software architectures.
+            </p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">🏛️</div>
+          <div class="edu-info">
+            <span class="edu-year">2011</span>
+            <h3 class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science &amp; Engineering</h3>
+            <h4 class="edu-school">United College of Engineering and Research (UCER) &bull; Prayagraj, India</h4>
+            <p class="edu-desc">
+              Comprehensive computer science curriculum encompassing computer architecture, compiler design, algorithms, networking protocols, and object-oriented systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Connect Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+        <p class="section-subtitle">
+          Whether you want to discuss AOSP architecture, NFC engineering, systems consulting, or tech leadership.
+        </p>
+      </div>
+
+      <div class="contact-card-wrap">
+        <div class="contact-channels">
+          <!-- Email Card -->
+          <div class="contact-box copy-action" data-copy="praveen211989@gmail.com" title="Click to copy email address">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="channel-label">Direct Email</span>
+              <span class="channel-val">praveen211989@gmail.com</span>
+            </div>
+            <span class="channel-action">Copy</span>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-box copy-action" data-copy="+917406333302" title="Click to copy phone number">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="channel-label">Mobile</span>
+              <span class="channel-val">+91 7406333302</span>
+            </div>
+            <span class="channel-action">Copy</span>
+          </div>
+
+          <!-- Location Card -->
+          <div class="contact-box">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="channel-label">Location</span>
+              <span class="channel-val">Bengaluru, Karnataka, India</span>
+            </div>
+            <span class="channel-action status-tag">Active</span>
+          </div>
+        </div>
+
+        <div class="contact-links-grid">
+          <a href="https://www.linkedin.com/in/praveen211989" target="_blank" rel="noopener noreferrer" class="link-card">
+            <div class="link-card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <div class="link-card-body">
+              <h4>LinkedIn Profile</h4>
+              <p>linkedin.com/in/praveen211989</p>
+            </div>
+            <span class="ext-arrow">&nearr;</span>
+          </a>
+
+          <a href="https://android-review.googlesource.com/q/owner:praveen.kr@samsung.corp-partner.google.com" target="_blank" rel="noopener noreferrer" class="link-card">
+            <div class="link-card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="link-card-body">
+              <h4>AOSP Gerrit Contributions</h4>
+              <p>android-review.googlesource.com</p>
+            </div>
+            <span class="ext-arrow">&nearr;</span>
+          </a>
+
+          <a href="https://github.com/praveen211989" target="_blank" rel="noopener noreferrer" class="link-card">
+            <div class="link-card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </div>
+            <div class="link-card-body">
+              <h4>GitHub Portfolio</h4>
+              <p>github.com/praveen211989</p>
+            </div>
+            <span class="ext-arrow">&nearr;</span>
+          </a>
+
+          <a href="http://www.praveenk.in/" target="_blank" rel="noopener noreferrer" class="link-card">
+            <div class="link-card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <div class="link-card-body">
+              <h4>Personal Domain</h4>
+              <p>www.praveenk.in</p>
+            </div>
+            <span class="ext-arrow">&nearr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">&lt;PKP /&gt;</span>
+        <p>&copy; 2026 Praveen Kumar Pandey. All rights reserved.</p>
+        <p class="footer-sub">Senior Chief Engineer &bull; Android Framework &amp; NFC Specialist</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" title="Scroll back to top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Copying -->
+  <div class="toast" id="toast">Copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
